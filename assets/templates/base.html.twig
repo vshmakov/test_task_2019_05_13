@@ -1,0 +1,17 @@
+{% block page %}
+    <nav>
+        <ul>
+            <li>
+                <a href="/">На главную</a>
+            </li>
+            <li>
+                <a href="/project/">Проект</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        {% block main %}
+        {% endblock %}
+    </main>
+{% endblock %}

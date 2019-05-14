@@ -1,0 +1,28 @@
+{% extends './base.html.twig' %}
+
+{% block main %}
+    <h1>Projects</h1>
+
+    {% if isLoading %}
+        <div>Loading...</div>
+    {% else %}
+        {% for project in projects %}
+            <div>
+                <h2>
+                    <a href="/project/{{ project.id }}/">
+                        {{ project.subject }}
+                    </a>
+                </h2>
+
+                <div>
+                    {{ project.updated_on }}
+                </div>
+                <p>
+                    {{ project.description }}
+                </p>
+            </div>
+        {% else %}
+            <div>There is no projects yet.</div>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
