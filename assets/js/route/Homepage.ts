@@ -6,6 +6,8 @@ import {URIComponents} from "uri-js";
 
 export default new class extends AbstractRoute {
     protected parameters = {
+        subject: '',
+        updatedOn: '',
         projects: [],
         isLoading: true,
     };
@@ -29,5 +31,30 @@ export default new class extends AbstractRoute {
             projects: projects,
             isLoading: false,
         }));
+    }
+
+    public onSubmit(event): void {
+        this.setParameters({
+            isLoading: true,
+        });
+
+        const form = $(event.target);
+        const subject = form.find('input[name=subject]').val();
+        const updatedOn = form.find('input[name=updated-on]').val();
+
+        $.get(
+            '/api/projects',
+            {
+                subject: subject,
+                'updatedOn[before]': updatedOn,
+            },
+            (projects): void => {
+                this.setParameters({
+                    subject: subject,
+                    updatedOn: updatedOn,
+                    projects: projects,
+                    isLoading: false,
+                });
+            });
     }
 }

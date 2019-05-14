@@ -23,4 +23,6 @@ export default abstract class AbstractRoute implements RouteInterface {
         this.setParameters(this.parameters);
     }
 
+    public onSubmit(event): void {
+    }
 }

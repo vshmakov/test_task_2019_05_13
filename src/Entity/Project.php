@@ -4,14 +4,20 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiFilter;
 use ApiPlatform\Core\Annotation\ApiResource;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\DateFilter;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
  * @ApiResource(
+ *     attributes={"order"={"updatedOn": "desc"}},
  *     itemOperations={"GET"}
  * )
+ * @ApiFilter(SearchFilter::class, properties={"subject": "ipartial"})
+ * @ApiFilter(DateFilter::class, properties={"updatedOn"})
  */
 class Project
 {

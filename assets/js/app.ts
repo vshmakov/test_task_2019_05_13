@@ -28,7 +28,17 @@ const App = new class {
 
     private bindHandlers(): void {
         $(document).on('click', 'a', (event): void => this.navigate(event));
+        $(document).on('submit', 'form', (event): void => this.submit(event));
         window.onpopstate = (event): void => this.popState(event);
+    }
+
+    private submit(event): void {
+        event.stopPropagation();
+        event.preventDefault();
+
+        if (this.currentRoute) {
+            this.currentRoute.onSubmit(event);
+        }
     }
 
     private popState(event): void {

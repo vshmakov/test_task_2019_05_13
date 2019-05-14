@@ -1,18 +1,33 @@
-{% extends './base.html.twig' %}
+<h1>Projects</h1>
+<form>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <td>
+                <input type="text" name="subject" value="{{  subject }}">
+            </td>
+        </tr>
+        <tr>
+            <th>Updated on</th>
+            <td>
+                <input type="date" name="updated-on" value="{{  updatedOn }}">
+            </td>
+        </tr>
+    </table>
+    <button type="submit">Search</button>
+</form>
 
-{% block main %}
-    <h1>Projects</h1>
-
+<div>
     {% if isLoading %}
         <div>Loading...</div>
     {% else %}
         {% for project in projects %}
             <div>
-                <h2>
+                <h3>
                     <a href="/project/{{ project.id }}/">
                         {{ project.subject }}
                     </a>
-                </h2>
+                </h3>
 
                 <div>
                     {{ project.updatedOn }}
@@ -25,4 +40,4 @@
             <div>There is no projects yet.</div>
         {% endfor %}
     {% endif %}
-{% endblock %}
+</div>

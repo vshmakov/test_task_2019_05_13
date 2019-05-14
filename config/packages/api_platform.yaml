@@ -6,3 +6,6 @@ api_platform:
     formats:
         json:     ['application/json']
         html:     ['text/html']
+    collection:
+        pagination:
+            enabled: false
