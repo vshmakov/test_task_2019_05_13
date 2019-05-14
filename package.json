@@ -14,8 +14,10 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "@types/jquery": "^3.3.29",
         "jquery": "^3.4.1",
         "twig": "^1.13.3",
-        "twig-loader": "^0.4.1"
+        "twig-loader": "^0.4.1",
+        "uri-js": "^4.2.2"
     }
 }

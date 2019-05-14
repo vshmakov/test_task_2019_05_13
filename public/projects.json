@@ -1,0 +1,341 @@
+{
+    "issues": [
+        {
+            "id": 398,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "parent": {
+                "id": 393
+            },
+            "subject": "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0440\u0435\u0442\u0440\u043e \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439 \u043d\u0430 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438 \u0433\u043e\u0440\u043e\u0434\u0430 \u0423\u0441\u0441\u0443\u0440\u0438\u0439\u0441\u043a",
+            "description": "\u041f\u043b\u0430\u043d\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u043e\u0439 \u043f\u043e \u0440\u0435\u0441\u0442\u0430\u0432\u0440\u0430\u0446\u0438\u0438 \u0440\u0435\u0442\u0440\u043e-\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439 \u043d\u0430 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438 \u0433\u043e\u0440\u043e\u0434\u0430 \u0423\u0441\u0441\u0443\u0440\u0438\u0439\u0441\u043a\u0430. \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u0440\u0435\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u0432\u0437\u044f\u043b\u0430 \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c\u044e 1 250 \u043a\u0432. \u0434\u043b\u044f \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u043e\u0439 \u0432 \u0441\u0443\u0431\u0430\u0440\u0435\u043d\u0434\u0443 \u0438 \u043f\u043b\u0430\u043d\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u0438\u0435 \u0435\u0433\u043e \u0432\u0441\u0435\u043c \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u043c \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435\u043c. ",
+            "start_date": "2018-11-27",
+            "done_ratio": 0,
+            "created_on": "2018-11-29T09:23:37Z",
+            "updated_on": "2018-11-29T09:23:37Z"
+        },
+        {
+            "id": 397,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "parent": {
+                "id": 383
+            },
+            "subject": "\u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0438 \u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u044f \u0437\u0430\u0432\u043e\u0434\u0430 \u043f\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0443 \u043f\u0435\u043d\u043e\u043a\u0435\u0440\u0430\u043c\u0438\u043a\u0438",
+            "description": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u0435\u043d\u043e\u043a\u0435\u0440\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043f\u043b\u0438\u0442\u044b \u043f\u043e \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u043f\u0440\u044f\u043c\u043e\u0433\u043e \u0432\u044b\u0441\u043e\u043a\u043e\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u043e\u0433\u043e \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u0441\u043f\u0435\u043d\u0438\u0432\u0430\u043d\u0438\u044f \u043d\u0435\u043e\u0440\u0433\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0433\u0440\u0430\u043d\u0443\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0433\u043e \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u044b\u0440\u044c\u044f.  (\u0413\u0440\u0430\u043d\u0443\u043b\u044b \u0438\u0437\u043c\u0435\u043b\u044c\u0447\u0430\u044e\u0442 \u0434\u043e \u043f\u043e\u0440\u043e\u0448\u043a\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u043e\u0433\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f, \u043f\u0440\u0438 \u0432\u044b\u0441\u043e\u043a\u043e\u0439 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u043f\u043e\u0440\u043e\u0448\u043e\u043a \u043f\u0440\u0435\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044f \u0432 \u0432\u044f\u0437\u043a\u0443\u044e \u043c\u0430\u0441\u0441\u0443 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0433\u0435\u043d\u0435\u0440\u0438\u0440\u0443\u044f \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0433\u0430\u0437\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043e\u0431\u0440\u0430\u0437\u0443\u0435\u0442 \u0432\u043d\u0443\u0442\u0440\u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430 \u0440\u043e\u0432\u043d\u044b\u0435, \u0440\u0430\u0432\u043d\u043e\u043c\u0435\u0440\u043d\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u0435 \u043f\u043e\u0440\u044b.)  \u0414\u0430\u043d\u043d\u0430\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430 \u043f\u0435\u043d\u043e\u043a\u0435\u0440\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043f\u043b\u0438\u0442\u044b \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u043c \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0439 \u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043e\u043a \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0438\u043d\u0438\u0446\u0438\u0430\u0442\u043e\u0440\u0430 \u043f\u0440\u043e\u0435\u043a\u0442\u0430. \r\n\u041e\u0434\u043d\u0438\u043c \u0438\u0437 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445 \u0441\u044b\u0440\u044c\u0435\u0432\u044b\u0445 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432 \u0434\u043b\u044f \u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u0435\u043d\u043e\u043a\u0435\u0440\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043f\u0430\u043d\u0435\u043b\u0435\u0439 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0434\u043e\u043d\u043d\u044b\u0439 \u0438\u043b, \u043b\u0438\u0431\u043e \u0433\u043b\u0438\u043d\u043e\u0437\u0435\u043c \u0438\u0437 \u043a\u0430\u0440\u044c\u0435\u0440\u043d\u044b\u0445 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043e\u043a.\r\n\u041e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0440\u0435\u0441\u0443\u0440\u0441\u044b \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0442 \u0432 \u0441\u0435\u0431\u044f \u0432\u043e\u0434\u0443, \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0438 \u0433\u0430\u0437.",
+            "start_date": "2018-11-20",
+            "done_ratio": 0,
+            "created_on": "2018-11-29T08:36:18Z",
+            "updated_on": "2018-11-29T23:43:21Z"
+        },
+        {
+            "id": 392,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Tempered glass factory",
+            "description": "The essence of the project is the construction of a plant for the production of tempered glass and double-glazed windows in the territory of ADT \u0022Nadezhdinskaya\u0022. Today there is no similar production in Primorsky Krai, the nearest one is in Khabarovsk. The demand of the market of the Far Eastern region for high-performance glass and double-glazed windows is quite high and will only grow with the development and introduction of modern construction technologies in our region. Competitive advantages are in the proximity of production to a specific consumer and the use of preferential treatment of the Territory of advanced development.",
+            "start_date": "2018-11-27",
+            "done_ratio": 0,
+            "created_on": "2018-11-27T03:16:17Z",
+            "updated_on": "2018-11-27T03:17:23Z"
+        },
+        {
+            "id": 391,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "The construction of livestock complex for 2400 head of cattle",
+            "description": "The project envisages construction of a dairy complex for 400 head of dairy cattle, a complex for the production of beef for 2000 goals, as well as workshops for the slaughter of animals on the territory of the Guerrilla city district of Primorsky Krai (Browni\u0441hi).\r\n\r\nThe main products of production will be chilled cow\u0027s milk (raw materials) and meat of cattle (beef).",
+            "start_date": "2018-11-27",
+            "done_ratio": 0,
+            "created_on": "2018-11-27T00:11:49Z",
+            "updated_on": "2018-11-27T00:11:49Z"
+        },
+        {
+            "id": 390,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Alluvial gold mining",
+            "description": "The purpose of the project\u2013 the production of alluvial gold in the Primorsky territory in the field of the Black river.Placer gold deposits of the basin of the river Chernaya Rechka is known and it was developed from 1934 In the early 90-ies of the 20th century the production reached 800 tons per year. Production was carried out by the inefficient manual and mechanized way. As a result, significant undeveloped reserves and man-made dumps were formed.",
+            "start_date": "2018-11-26",
+            "done_ratio": 0,
+            "created_on": "2018-11-26T05:17:43Z",
+            "updated_on": "2018-11-26T05:18:24Z"
+        },
+        {
+            "id": 389,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Construction of residential district",
+            "description": "On a plot of 77 hectares it is planned to build and put into operation about 850 thousand square meters of residential real estate and social and recreational facilities.\r\n\r\nThe new residential district will be located in a picturesque place of Vladivostok on a flat plot, in the collapse of the hills, which opens to the South side, with magnificent views of the surrounding forest. The project will focus on nature as much as possible-all green spaces will be preserved during the construction. On the territory of the district will be provided everything that can make life comfortable for residents.",
+            "start_date": "2018-11-26",
+            "done_ratio": 0,
+            "created_on": "2018-11-26T04:39:08Z",
+            "updated_on": "2018-11-26T04:39:08Z"
+        },
+        {
+            "id": 388,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Production and distribution of trucks of the Chinese brand FAW",
+            "description": "The production company \u0022Ybo-Sumotori\u0022 is a joint Russian-Chinese project to create a plant for the production and distribution of Chinese brand trucks in Primorye.",
+            "start_date": "2018-11-26",
+            "done_ratio": 0,
+            "created_on": "2018-11-26T04:33:20Z",
+            "updated_on": "2018-11-26T04:33:20Z"
+        },
+        {
+            "id": 387,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Construction of recreation facilities",
+            "description": "The essence of the proposed project is the organization of a place for people\u0027s rest, where anyone can find something for the soul, whether it\u0027s just a vacation in family \u2013type houses on the beach, a restaurant with fresh seafood, sightseeing tours or just an active holiday on the playgrounds.",
+            "start_date": "2018-11-23",
+            "done_ratio": 0,
+            "created_on": "2018-11-23T02:15:30Z",
+            "updated_on": "2018-11-26T05:05:11Z"
+        },
+        {
+            "id": 386,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Construction of a plant for the production of ceramic foam panels and blocks",
+            "description": "The main objective of the project is to create an enterprise for the production of foam ceramic blocks and panels in the Free port of Vladivostok (Spassk \u2013 Dalniy urban district) and their implementation in the people\u0027s Republic of China.\r\n\r\nThe quantitative criteria of the project assume the production and sale in China of 200 070 cubic meters of finished products per year, starting from 2020.\r\n\r\nAchieving these goals will allow the company in the medium term to produce in the maximum possible volumes of competitive products with high profitability.",
+            "start_date": "2018-11-23",
+            "done_ratio": 0,
+            "created_on": "2018-11-23T02:03:03Z",
+            "updated_on": "2018-11-23T02:03:03Z"
+        },
+        {
+            "id": 385,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Construction of residential buildings, as well as engineering and transport infrastructure",
+            "description": "During realizatsii project on a plot area of 400 508 sq m will be built 252 houses: the 224 individual homes, 20 duplexes, 8 multifamily housing including one-, two - and three-bedroom apartments.",
+            "start_date": "2018-11-23",
+            "done_ratio": 0,
+            "created_on": "2018-11-23T01:51:57Z",
+            "updated_on": "2018-11-23T01:51:57Z"
+        },
+        {
+            "id": 384,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Complex low-rise buildings in the suburbs of Vladivostok",
+            "description": "The business idea of the project involves the construction of a comfortable village with modern engineering, social and road infrastructure. The target group of consumers is the urban middle class, aimed at high-quality and affordable type of housing. Based on the concept of the project, their own experience and marketing research, Japanese experts have determined the target rate of household sales and the structure of organizational, design, General construction costs.\r\n\r\nFor the pilot project, a land plot in the area of Sadgorod station with a total area of 6.4 Hectares was selected.",
+            "start_date": "2018-11-22",
+            "done_ratio": 0,
+            "created_on": "2018-11-22T07:19:21Z",
+            "updated_on": "2018-11-22T07:24:58Z"
+        },
+        {
+            "id": 342,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Construction of a plant for the production of semi-dry ceramic bricks",
+            "description": "Construction of a plant for the production of ceramic bricks with a capacity of 30 million bricks a year. R\u0026D project of the North   Caucasus research Institute STROMTECHNIKA, the products of which belongs to the group of efficient building materials.",
+            "start_date": "2018-11-08",
+            "done_ratio": 0,
+            "created_on": "2018-11-08T01:32:23Z",
+            "updated_on": "2018-11-08T01:33:47Z"
+        },
+        {
+            "id": 331,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "parent": {
+                "id": 330
+            },
+            "subject": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u043e\u0433\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u0413\u0440\u0438\u0431\u0430\u043d\u043e\u0432\u043a\u0430 \u0441 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0439 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043e\u0439",
+            "description": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u044f \u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u043e\u0433\u043e \u043a\u0443\u0440\u043e\u0440\u0442\u0430 \u00ab\u0413\u0440\u0438\u0431\u0430\u043d\u043e\u0432\u043a\u0430\u00bb \u043f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442 \u0440\u044f\u0434 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0439 \u043f\u043e \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0443 \u0438 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u044e \u043a\u0430\u043d\u0430\u0442\u043d\u044b\u0445 \u0434\u043e\u0440\u043e\u0433 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u0438\u044f, \u0447\u0442\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043f\u043e\u0432\u044b\u0441\u0438\u0442 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u0438 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u0435\u0440\u0432\u0438\u0441\u0430 \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u043c\u044b\u0445 \u0443\u0441\u043b\u0443\u0433 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0439 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b (http:\/\/www.gribanowka.ru\/).\r\n\u0421 \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u043e\u0442\u043e\u043a\u043e\u0432 \u0442\u0443\u0440\u0438\u0441\u0442\u043e\u0432 \u0432\u043e\u0437\u043d\u0438\u043a\u0430\u0435\u0442 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u044c \u0432 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430\u0445 \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u044f \u0434\u043e 400 \u0447\u0435\u043b\u043e\u0432\u0435\u043a, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0435 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043f\u0438\u0442\u0430\u043d\u0438\u044f, \u0440\u0430\u0441\u043f\u043e\u043b\u0430\u0433\u0430\u044e\u0449\u0438\u0435\u0441\u044f \u043a\u0430\u043a \u0432 \u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430\u0445, \u0442\u0430\u043a \u0438 \u0443 \u043f\u043e\u0434\u043d\u043e\u0436\u044c\u044f \u0438 \u0432\u0435\u0440\u0448\u0438\u043d\u044b \u0441\u043a\u043b\u043e\u043d\u0430.\r\n\u041f\u0440\u0438 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435  \u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u043e\u0433\u043e \u043a\u0443\u0440\u043e\u0440\u0442\u0430 \u00ab\u0413\u0440\u0438\u0431\u0430\u043d\u043e\u0432\u043a\u0430\u00bb \u043f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u043e\u043a\u0430\u0437\u0430\u043d\u0438\u0435 \u043e\u0431\u0448\u0438\u0440\u043d\u043e\u0433\u043e \u0441\u043f\u0438\u0441\u043a\u0430 \u0443\u0441\u043b\u0443\u0433:  \r\n-\u0413\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u0441\u043a\u043b\u043e\u043d;\r\n-\u0423\u0441\u043b\u0443\u0433\u0438 \u043a\u0430\u043d\u0430\u0442\u043d\u044b\u0445 \u0434\u043e\u0440\u043e\u0433;\r\n-\u0423\u0441\u043b\u0443\u0433\u0438 \u043f\u0440\u043e\u043a\u0430\u0442\u0430 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f;\r\n-\u0422\u0440\u0430\u0441\u0441\u0430 \u0431\u0435\u0433\u043e\u0432\u044b\u0445 \u043b\u044b\u0436;\r\n-\u0423\u0441\u043b\u0443\u0433\u0438 \u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0447\u043d\u043e\u0433\u043e \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u0430;\r\n-\u0423\u0441\u043b\u0443\u0433\u0438 \u043a\u0430\u0444\u0435, \u0431\u0430\u0440\u0430, \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430;\r\n-\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e \u043e\u0437\u0434\u043e\u0440\u043e\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043b\u0430\u0433\u0435\u0440\u044c;\r\n-\u0422\u0443\u0440\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u044b. \r\n\u0412 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c \u043f\u0440\u043e\u0435\u043a\u0442\u0435 \u043f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u044b\u0439 \u043a\u0443\u0440\u043e\u0440\u0442 \u0441 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0439 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043e\u0439 \u0441 \u0446\u0435\u043b\u044c\u044e \u0443\u0434\u043e\u0432\u043b\u0435\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u044f \u043f\u043e\u0442\u0440\u0435\u0431\u043d\u043e\u0441\u0442\u0435\u0439 \u0436\u0438\u0442\u0435\u043b\u0435\u0439 \u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u043e\u0433\u043e \u043a\u0440\u0430\u044f, \u0434\u0440\u0443\u0433\u0438\u0445 \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u0432 \u0414\u0430\u043b\u044c\u043d\u0435\u0433\u043e \u0412\u043e\u0441\u0442\u043e\u043a\u0430 \u0438 \u0420\u043e\u0441\u0441\u0438\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0438\u043d\u043e\u0441\u0442\u0440\u0430\u043d\u043d\u044b\u0445 \u0442\u0443\u0440\u0438\u0441\u0442\u043e\u0432 \u0432 \u0443\u0441\u043b\u0443\u0433\u0430\u0445 \u0437\u0438\u043c\u043d\u0435\u0433\u043e \u043e\u0442\u0434\u044b\u0445\u0430 \u0438 \u0442\u0443\u0440\u0438\u0437\u043c\u0430.\r\n\u0418\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043f\u0440\u043e\u0435\u043a\u0442\u0430: \u0433\u043e\u0440\u043d\u043e\u043b\u044b\u0436\u043d\u0430\u044f \u0442\u0440\u0430\u0441\u0441\u0430 \u043e\u0431\u0449\u0435\u0439 \u043f\u0440\u043e\u0442\u044f\u0436\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e \u0434\u043e 750 \u043c; \u0431\u0443\u043a\u0441\u0438\u0440\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u043a\u0430\u043d\u0430\u0442\u043d\u0430\u044f \u0434\u043e\u0440\u043e\u0433\u0430 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430 \u0421\u041a\u0410\u0414\u041e \u0433. \u0421\u0430\u043c\u0430\u0440\u0430; \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0441\u043d\u0435\u0436\u0435\u043d\u0438\u044f \u0441\u043a\u043b\u043e\u043d\u0430; \u043f\u0443\u043d\u043a\u0442 \u043f\u0440\u043e\u043a\u0430\u0442\u0430 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0441\u043d\u0430\u0440\u044f\u0436\u0435\u043d\u0438\u044f; \u0442\u0435\u043f\u043b\u043e\u0435 \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u043e\u0434\u0435\u0432\u0430\u043d\u0438\u044f \u0438 \u043f\u0440\u0438\u0435\u043c\u0430 \u043f\u0438\u0449\u0438 \u043e\u0442\u0434\u044b\u0445\u0430\u044e\u0449\u0438\u0445 \u0438 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430; \u043c\u0435\u0441\u0442\u0430 \u0434\u043b\u044f \u043e\u0442\u0434\u044b\u0445\u0430 \u043d\u0430 \u043f\u0440\u0438\u0440\u043e\u0434\u0435, \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0430 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439.\r\n\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043f\u043e \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044e \u043f\u0440\u043e\u0435\u043a\u0442\u0430: \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e \u0447\u0435\u0442\u044b\u0440\u0435\u0445 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043e\u0432 \u0436\u0438\u043b\u044b\u0445 \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u043e\u043c\u043e\u0432 \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0437\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 (\u0432\u0441\u0435\u0433\u043e 76 \u0434\u043e\u043c\u043e\u0432). \u041a\u0430\u0436\u0434\u044b\u0439 \u0434\u043e\u043c \u043f\u0440\u0435\u0434\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d \u0434\u043b\u044f \u043f\u0440\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043e\u0434\u043d\u043e\u0439 \u0441\u0435\u043c\u044c\u0438.",
+            "start_date": "2018-11-07",
+            "done_ratio": 0,
+            "created_on": "2018-11-07T02:57:09Z",
+            "updated_on": "2018-11-27T00:49:43Z"
+        },
+        {
+            "id": 323,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Complex processing of ash and slag waste from coal combustion at Primorskaya GRES",
+            "description": "Deep processing of technogenic deposits formed as a result of the discharge of waste from the combustion of browncoal. The resulting products in the enrichment of ash and slag waste: magnetite, alumina, silicon, building materials.",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T06:05:56Z",
+            "updated_on": "2018-11-08T01:12:28Z"
+        },
+        {
+            "id": 322,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Creating a sports and tourist cluster in Arsenyev",
+            "description": "The core of the cluster - Sopka Obzornaya is located in the Yakovlevsky municipal district.\r\nOn the north-western slope of Obzornaya Hill, the current Arsgora Ski Center is located.\r\nFor one season, the base can take about 15,000 people. Skiers and snowboarders can use 3 tracks: 300 m - for beginners; 1800 and 2000 m - for more advanced athletes, as well as the track for freeride lovers. Work towing and mooring towers. Trails are prepared by snowcat. Work rental, food service, parking for vehicles.\r\nCurrently, the Complex of sports facilities is operated by the Regional State Autonomous Institution \u0022Regional Sports School\u0022 KSAU \u0022KSSH\u0022.\r\nIt is necessary to purchase and install a chair lift and expand the infrastructure of the ski base.\r\n",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:45:07Z",
+            "updated_on": "2018-11-08T01:12:07Z"
+        },
+        {
+            "id": 321,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Tourist and recreational cluster \u0022Prim ring\u00bb",
+            "description": "\u0022Prim ring\u0022 is a project in the field of tourism, recreation and sports. Filling of the complex will allow to combine various events and cultural and entertainment programs, to spend time of active rest.\r\n\r\nThe Prim ring project is focused on domestic demand \u2013 Russian citizens and tourist flows of residents of the dynamically developing Asia-Pacific countries.\r\n\r\n\u0022The Prim ring\u0022 - it\u0027s:\r\n\r\n\u2022 rolling karting;\r\n\r\n\u2022 off-road driving attractions;\r\n\r\n\u2022 venue for Russian and international drift competitions;\r\n\r\n\u2022 motocross;\r\n\r\n\u2022 paintball area ;\r\n\r\n\u2022 children\u0027s town \u0022Ringo Park\u00bb;\r\n\r\n\u2022 picnic area and others.",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:42:42Z",
+            "updated_on": "2018-11-27T00:19:55Z"
+        },
+        {
+            "id": 320,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Reconstruction of the sports and recreation ski base \u0022Salyut\u0022",
+            "description": "At present, the complex of facilities is operated by the Municipal Autonomous Institution \u201cTourism and Recreation Center Salyut\u201d.\r\nOffer for investor:\r\nConcession agreement (reconstruction, operation and maintenance).\r\nA possible form of commercial use is as a recreational zone.\r\nGovernmental support:\r\nProvision of land on preferential terms, without bidding.\r\nCurrent project status:\r\nThe project concept is being updated. Search for an investor.\r\n",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:34:13Z",
+            "updated_on": "2018-11-08T01:11:34Z"
+        },
+        {
+            "id": 319,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Territory development in the southern part of Ussuriisk city,  microdistrict Raduzhnyj",
+            "description": "The project includes 3 zones.\r\nLiving area of 200 hectares. The project successfully participated in the program \u201cHousing for the Russian Family\u201d. The district includes 400,000 meters of housing, in which about 15,000 people will live.\r\nThe recreation area of 120 hectares, where it is planned to build a hotel complex, also building areas for recreation along the Komarovka River, as well as facilities for winter and summer sports and cycling paths. The creation of agro-village \u0022South\u0022 is supposed. \r\nBusiness area of 80 hectares. It provides advantages for placing a transport and logistics complex, facilities for roadside service, wholesale bases, exhibition complexes.",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:32:56Z",
+            "updated_on": "2018-11-08T01:07:10Z"
+        },
+        {
+            "id": 318,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "A landfill and plant for the production of pellets",
+            "description": "Creating a complex for the collection, transportation, treatment, utilization, disposal, placing waste from 1 to 4 hazard classes, having an agreed combination of existing technologies (provided with certified equipment that does not require development and approved), to obtain the maximum yield of products in the form of commercial products and standard recyclables in the recycling chain.",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:30:44Z",
+            "updated_on": "2018-11-08T01:11:12Z"
+        },
+        {
+            "id": 317,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "The plant for the production of liquefied natural gas (LNG) in the territory of the ADT \u0022Nadezhdinskaya\u0022",
+            "description": "The project involves the creation of an effective plant for the production of liquefied natural gas (LNG) with a filling station on the territory of the Nadezhdinskaya ADT.\r\nThe convenient geographical location of the project site - the intersection of several transport routes: the Ussuri highway, which goes to Khabarovsk, the Trans-Siberian Railway and the international transport corridor Primorye-1, which goes to China, close to major population centers (Vladivostok, Ussuriysk, Nakhodka ) ",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:28:30Z",
+            "updated_on": "2018-11-08T04:06:55Z"
+        },
+        {
+            "id": 316,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Theme Park of the peoples of the World",
+            "description": "On the area of 20,4348 hectares in the \u0022Park of the peoples of the world\u0022 it is planned to place more than 20 main objects, including an exhibition pavilion with a total area of 11,100 sq.m. introducing the representatives of all countries on the Earth depicting fragments from life, as well as cultural features of each of them. It will present a total amount of 188 exhibition sites with over 500 sculptures",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:16:15Z",
+            "updated_on": "2018-11-08T01:05:03Z"
+        },
+        {
+            "id": 314,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Multifunctional social and residential complex on the street. Makovsky, 55 in the city of Vladivostok",
+            "description": "The project of construction of a multifunctional social and residential complex is an architectural composition of three different high-rise buildings. The construction point is located in the city of Vladivostok near the Amur Bay at the intersection of two main highways-Makovsky street and the bridge across De- friz peninsula",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:06:43Z",
+            "updated_on": "2018-11-08T01:10:41Z"
+        },
+        {
+            "id": 313,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Medical center ",
+            "description": "Organization of the modern multidisciplinary medical center for the provision of high quality medical services with the use of advanced methods of diagnosis and treatment of a wide range of diseases. The use of the most modern medical equipment for diagnosis and treatment will provide first-class medical care to the population.",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:05:02Z",
+            "updated_on": "2018-11-08T01:05:35Z"
+        },
+        {
+            "id": 312,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "High-tech production in the Far Eastern Federal District \u00abKORMBIOSINTEZ\u00bb",
+            "description": "The following products for productive livestock and poultry production in the amount of up to 15,000 tons per year are planned for the project production:\r\nStage 1: R \u0026 D, the creation and industrial launch of high-tech production of feed protein with a given amino acid composition and feed concentrates based on it:\r\n1. Feed microbiological protein (KMB) with a given amino acid composition - intended as a protein supplement in feed and feed mixtures for farm animals, poultry, fish, and fur animals.\r\n2. Protein concentrate - BCS-1 is intended for the production of complete feed of fattening pigs.\r\n3. Protein concentrate - BCS-2 is intended for the production of complete feed of fattening pigs.\r\n4. Protein concentrate - BKP-3 is intended for the production of complete feed for weaned piglets.\r\n5. Protein concentrate \u0022Universal\u0022 is intended for the production of animal feed and feed mixtures for poultry.\r\n6. Protein concentrate - BKKN-4 is intended for the production of mixed feed for laying hens during the entire period of egg production.\r\n7. Protein concentrate - BKBR-5 is intended for the production of feed for broilers during the entire period of fattening.\r\n \r\n2 stage: the creation of new biotechnological production units (high-tech areas) and the development of industrial production of import-substituting feed amino acids and vitamins with a capacity of up to 1000 tons per year.\r\n",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T05:01:30Z",
+            "updated_on": "2018-11-08T03:00:06Z"
+        },
+        {
+            "id": 311,
+            "priority": {
+                "id": 2,
+                "name": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439"
+            },
+            "subject": "Production of calcium carbide, carbon dioxide, acetylene, REGROST and TAKAR",
+            "description": "Creation of R\u0026D enterprise for the production of calcium carbide, carbon dioxide, acetylene, REGROST and TAKAR",
+            "start_date": "2018-11-02",
+            "done_ratio": 0,
+            "created_on": "2018-11-02T04:58:29Z",
+            "updated_on": "2018-11-08T01:04:28Z"
+        }
+    ],
+    "total_count": 96,
+    "offset": 0,
+    "limit": 25
+}

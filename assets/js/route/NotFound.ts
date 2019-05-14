@@ -1,20 +1,13 @@
 import {RouteInterface} from "./RouteInterface";
 import {Templates} from "../templates";
+import AbstractRoute from "./AbstractRoute";
 
-export default new class implements RouteInterface {
-    public getTemplate(): any {
+export default new class extends AbstractRoute {
+    protected getTemplate(): any {
         return Templates.notFound;
     }
 
-    getParameters(callback): void {
-        callback({});
-    }
-
-    public getTitle(): string {
+    protected getTitle(): string {
         return "404. Страница не найдена";
-    }
-
-    public supportsUrl(url: string): boolean {
-        return true;
     }
 }

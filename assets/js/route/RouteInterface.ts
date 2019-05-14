@@ -1,9 +1,8 @@
+import  {URIComponents} from  'uri-js';
+
 export interface RouteInterface {
-    getTemplate(): any;
+    supports(uri: URIComponents): boolean;
 
-    getParameters(callback): void;
+    onLoad(uri: URIComponents): void;
 
-    getTitle(): string;
-
-    supportsUrl(url: string): boolean;
 }

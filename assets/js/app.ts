@@ -3,28 +3,21 @@ import * as $ from "jquery";
 import NotFound from "./route/NotFound";
 import {RouteInterface} from "./route/RouteInterface";
 import {Routes} from './route/routes';
+import {parse as parseURI, URIComponents} from 'uri-js';
 
-const UI = {
-    title: $('title'),
-    content: $('#app'),
-};
+const App = new class {
+    private currentRoute: RouteInterface | null;
 
-
-new class {
-    public constructor() {
+    public init(): void {
         this.bindHandlers();
-        this.renderPage(this.getRoute(location.href));
+        this.renderPage(location.href);
     }
 
-    private getPath(href: string): string {
-        return '/';
-    }
-
-    private getRoute(href: string): RouteInterface {
+    private getRoute(uri: URIComponents): RouteInterface {
         let currentRoute;
 
         for (let key in Routes) {
-            if (Routes[key].supportsUrl(this.getPath(href))) {
+            if (Routes[key].supports(uri)) {
                 currentRoute = Routes[key];
                 break;
             }
@@ -39,8 +32,8 @@ new class {
     }
 
     private popState(event): void {
-        const url = (event.state && event.state.page) || '/';
-        this.loadPage(url);
+        const href = (event.state && event.state.page) || '/';
+        this.loadPage(href);
     }
 
     private navigate(event): void {
@@ -50,20 +43,23 @@ new class {
         this.loadPage(event.target.href);
     }
 
-    private loadPage(url: string): void {
-        this.renderPage(
-            this.getRoute(url)
-        );
-
-        history.pushState({page: url}, '', url);
+    private loadPage(href: string): void {
+        history.pushState({page: href}, '', href);
+        this.renderPage(href);
     }
 
-    private renderPage(route: RouteInterface): void {
-        UI.title.html(route.getTitle());
-        route.getParameters((parameters): void => {
-            UI.content.html(
-                route.getTemplate().call(null, parameters)
-            );
-        });
+    private renderPage(href: string): void {
+        const uri = parseURI(href);
+        const route = this.getRoute(uri);
+
+        this.setCurrentRoute(uri, route);
+    }
+
+
+    private setCurrentRoute(uri: URIComponents, route: RouteInterface): void {
+        this.currentRoute = route;
+        route.onLoad(uri);
     }
 }
+
+App.init();
