@@ -17,7 +17,6 @@ export default new class extends AbstractRoute {
     }
 
     public supports(uri: URIComponents): boolean {
-        console.log(uri.path, this.urlRegExp.test(uri.path));
         return this.urlRegExp.test(uri.path);
     }
 
