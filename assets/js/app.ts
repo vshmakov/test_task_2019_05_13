@@ -5,12 +5,16 @@ import {RouteInterface} from "./route/RouteInterface";
 import {Routes} from './route/routes';
 import {parse as parseURI, URIComponents} from 'uri-js';
 
-const App = new class {
+export const App = new class {
     private currentRoute: RouteInterface | null;
 
     public init(): void {
         this.bindHandlers();
         this.renderPage(location.href);
+    }
+
+    public showNotFoundPage(uri: URIComponents): void {
+        this.setCurrentRoute(uri, NotFound);
     }
 
     private getRoute(uri: URIComponents): RouteInterface {

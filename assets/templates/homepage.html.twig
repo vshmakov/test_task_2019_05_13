@@ -4,13 +4,13 @@
         <tr>
             <th>Subject</th>
             <td>
-                <input type="text" name="subject" value="{{  subject }}">
+                <input type="text" name="subject" value="{{ subject }}">
             </td>
         </tr>
         <tr>
             <th>Updated on</th>
             <td>
-                <input type="date" name="updated-on" value="{{  updatedOn }}">
+                <input type="date" name="updated-on" value="{{ updatedOn }}">
             </td>
         </tr>
     </table>
@@ -21,6 +21,11 @@
     {% if isLoading %}
         <div>Loading...</div>
     {% else %}
+        <div>
+            <b>
+                Total {{ projects|length }} projects.
+            </b>
+        </div>
         {% for project in projects %}
             <div>
                 <h3>
@@ -30,10 +35,10 @@
                 </h3>
 
                 <div>
-                    {{ project.updatedOn }}
+                    {{ project.updatedOn|date('Y-m-d H:i') }}
                 </div>
                 <p>
-                    {{ project.description }}
+                    {{ project.summery }}
                 </p>
             </div>
         {% else %}

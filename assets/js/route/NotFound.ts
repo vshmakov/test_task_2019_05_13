@@ -8,6 +8,6 @@ export default new class extends AbstractRoute {
     }
 
     protected getTitle(): string {
-        return "404. Страница не найдена";
+        return "404. Page not found";
     }
 }

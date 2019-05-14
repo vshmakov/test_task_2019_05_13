@@ -1,4 +1,3 @@
-import {RouteInterface} from "./RouteInterface";
 import {Templates} from "../templates";
 import AbstractRoute from "./AbstractRoute";
 import * as $ from 'jquery';
@@ -17,18 +16,18 @@ export default new class extends AbstractRoute {
     }
 
     protected getTitle(): string {
-        return "Главная страница";
+        return "Homepage";
     }
 
     public supports(uri: URIComponents): boolean {
         return '/' === uri.path;
     }
 
-    onLoad(uri: URIComponents): void {
+    public onLoad(uri: URIComponents): void {
         super.onLoad(uri);
 
         $.get('/api/projects', {}, (projects): void => this.setParameters({
-            projects: projects,
+            projects: this.processProjects(projects),
             isLoading: false,
         }));
     }
@@ -52,9 +51,28 @@ export default new class extends AbstractRoute {
                 this.setParameters({
                     subject: subject,
                     updatedOn: updatedOn,
-                    projects: projects,
+                    projects: this.processProjects(projects),
                     isLoading: false,
                 });
             });
+    }
+
+    private processProjects(projects) {
+        return projects.map((project) => {
+            project.summery = this.createSummery(project.description);
+
+            return project;
+        });
+    }
+
+    private createSummery(text: string): string {
+        let summery = text.slice(0, 125);
+        let lastSpace = summery.lastIndexOf(' ');
+
+        if (-1 !== lastSpace) {
+            summery = summery.slice(0, lastSpace);
+        }
+
+        return summery + "...";
     }
 }

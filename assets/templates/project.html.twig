@@ -1,12 +1,13 @@
-{% extends './base.html.twig' %}
+<h1>{{  project.subject }}</h1>
 
-{% block main %}
-    <table>
-        <tr>
-            <th>Название</th>
-            <td>
-                {{ project.subject }}
-            </td>
-        </tr>
-    </table>
-{% endblock %}
+<div>
+    {{ project.updatedOn|date('Y-m-d H:i') }}
+</div>
+
+<p>
+    {{ project.description }}
+</p>
+
+<div>
+    <a href="/">Back to homepage</a>
+</div>
