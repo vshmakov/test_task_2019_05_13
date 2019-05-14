@@ -4,10 +4,14 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
+ * @ApiResource(
+ *     itemOperations={"GET"}
+ * )
  */
 class Project
 {
@@ -55,7 +59,7 @@ class Project
         $this->updatedOn = new \DateTimeImmutable();
     }
 
-    public function getId(): ?int
+    public function getId()
     {
         return $this->id;
     }

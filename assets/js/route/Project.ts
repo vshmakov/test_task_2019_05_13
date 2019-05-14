@@ -32,9 +32,6 @@ export default new class extends AbstractRoute {
     }
 
     private getProject(id: number, callback: (project) => void): void {
-        $.get('/projects.json', {}, (data): void => {
-            const projects = data.issues.filter((project): boolean => project.id === id);
-            callback(projects[0]);
-        });
+        $.get(`/api/projects/${id}`, {}, (project):void  => callback(project));
     }
 }

@@ -25,8 +25,8 @@ export default new class extends AbstractRoute {
     onLoad(uri: URIComponents): void {
         super.onLoad(uri);
 
-        $.get('/projects.json', {}, (data): void => this.setParameters({
-            projects: data.issues,
+        $.get('/api/projects', {}, (projects): void => this.setParameters({
+            projects: projects,
             isLoading: false,
         }));
     }
