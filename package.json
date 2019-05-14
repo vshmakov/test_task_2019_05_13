@@ -15,6 +15,7 @@
     },
     "dependencies": {
         "@types/jquery": "^3.3.29",
+        "bootstrap": "^4.3.1",
         "jquery": "^3.4.1",
         "twig": "^1.13.3",
         "twig-loader": "^0.4.1",

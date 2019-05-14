@@ -1,6 +1,6 @@
 <h1>Projects</h1>
 <form>
-    <table>
+    <table class="table table-light">
         <tr>
             <th>Subject</th>
             <td>
@@ -14,12 +14,13 @@
             </td>
         </tr>
     </table>
-    <button type="submit">Search</button>
+
+    <button type="submit" class="btn btn-warning">Search</button>
 </form>
 
 <div>
     {% if isLoading %}
-        <div>Loading...</div>
+        <div class="text-success">Loading...</div>
     {% else %}
         <div>
             <b>
@@ -34,7 +35,7 @@
                     </a>
                 </h3>
 
-                <div>
+                <div class="text-info">
                     {{ project.updatedOn|date('Y-m-d H:i') }}
                 </div>
                 <p>
@@ -42,7 +43,7 @@
                 </p>
             </div>
         {% else %}
-            <div>There is no projects yet.</div>
+            <div class="text-warning">There is no projects yet.</div>
         {% endfor %}
     {% endif %}
 </div>
